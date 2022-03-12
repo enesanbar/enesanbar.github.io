@@ -1,0 +1,99 @@
+### Site Settings ###
+title               : Enes Anbar
+description         : >-
+                      Gamer, Cyclist, Bookworm <br> 
+                      Traveler, Movie Enthusiast <br>
+                      Platform / Software Engineer <br>
+                      DevOps Practitioner
+baseurl             : ""
+repository          : enesanbar/enesanbar.github.io
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/projects.html
+  - pages/blog.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Enes Anbar
+  image             : https://media-exp1.licdn.com/dms/image/C5103AQGBXlmEFiGwAQ/profile-displayphoto-shrink_800_800/0/1517527647379?e=1652313600&v=beta&t=9EKh2O9nCBS2EeDGGFgP8MG9XxrjBli8t7k1y9qZ3TM
+  email             : enesanbar@gmail.com
+  github            : enesanbar
+# gitlab            : your_username
+  instagram         : enesanbar
+  linkedin          : enesanbar
+  medium            : enesanbar
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : enesanbar
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - vendor
+  - "*.log"

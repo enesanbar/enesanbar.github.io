@@ -1,0 +1,51 @@
+- name: Git
+  percentage: 80
+  color:
+
+- name: Docker
+  percentage: 90
+  color: danger
+
+- name: Kubernetes
+  percentage: 70
+  color: danger
+
+- name: Helm
+  percentage: 80
+  color: danger
+
+- name: Prometheus
+  percentage: 70
+  color: danger
+
+- name: GitLab CI/CD
+  percentage: 70
+  color:
+
+- name: Jenkins CI/CD
+  percentage: 70
+  color:
+
+- name: Python
+  percentage: 70
+  color: secondary
+
+- name: Go
+  percentage: 80
+  color: danger
+
+- name: Java
+  percentage: 60
+  color: danger
+
+- name: Maven
+  percentage: 80
+  color: danger
+
+- name: Node JS
+  percentage: 50
+  color: danger
+
+- name: Spring Framework
+  percentage: 50
+  color: danger
